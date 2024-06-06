@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>services</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css" id="dark-mode-custom-style"></style>
+    <link type="text/css" id="dark-mode" rel="stylesheet" href="">
+
+    <style>
+        h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+        body, html {
+            margin: 0;
+            font: 400 15px/1.8 "Lato", sans-serif;
+            color: #777;
+        }
+
+        .w3-bar .w3-button {
+         padding: 16px;
+        }
+        * {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+    </style>
+  </head>
+    
+      <header>
+        <div class="w3-top">
+          <div class="w3-bar w3-white w3-card" id="myNavbar">
+            <a href="home.html" class="w3-bar-item w3-button w3-wide"><img src="logo-sm-2-1.png"></a>
+                <!-- Right-sided navbar links -->
+             <div class="w3-right w3-hide-small">
+                <a href="SERVICES.html" class="w3-bar-item w3-button">SERVICES</a>
+                <a href="portfolio.php" class="w3-bar-item w3-button"><i class="fa fa-th"></i>PORTFOLIO</a>
+                <a href="contact us.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>CONTACT</a>
+                <a href="sign up and login.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i>SIGN IN / SIGN UP</a>  
+            </div>
+          </div>
+        </div>
+    </header>
+<body>
+<div class="container" style="margin-top:150px">
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Construction')" id="defaultOpen">Construction</button>
+  <button class="tablinks" onclick="openCity(event, 'Design')">Design</button>
+  <button class="tablinks" onclick="openCity(event, 'Fit-out')">Fit-out</button>
+</div>
+
+<div id="Construction" class="tabcontent">
+  <h3>Construction</h3>
+  <p>NNUC specializes in residential, commercial and industrial construction and has gained its reputation from delivering quality projects on time and within the client budgets. Over the years NNUC has enjoyed the trust and satisfaction of its long existing returning clients. The management and the engineering team at NNUC are multinationals and have a wide range of international construction experiences that spans from Australia to the USA. We offer our clients unique and highly professional services to help them realize their vision. At NNUC we offer complete turnkey construction and management services through negotiated or tendered contracts. By working closely with clients, consultants and engineers and through the coordination of our vast multi-skilled labor and valuable network of local and international sub-contractors and suppliers, we are able to successfully complete our projects in the most effective and proficient manner.
+.</p>
+</div>
+
+<div id="Design" class="tabcontent">
+  <h3>Design</h3>
+  <p>Our Interiors Division was formed with the intention of bringing high quality original interior design concepts to the residential and commercial market place. We have developed a business which is born from the determination to be the best, to deliver the best, without compromises.We aim to create unique and innovative interior solutions that will have a positive impact on your business or home.Whether you want a cutting edge interior design for a retail outlet that will position you streets ahead of the competition or simply want to revamp and add some style to your home, we can cater for all your needs.Our imagination is endless and our designs are exceptional. We are experts in both traditional and contemporary interior design to suit any taste. At NNUC we have a wealth of international and local experience in providing quality interior design for all sized projects, whether it would be a residential or commercial project. No project is too big or too small.
+  SERVICES
+  Interior Architecture and Spatial planning.
+  Lighting, Mechanical, electrical and furniture layout planning with 3D visuals.
+  Complete finish and site management.Selection and specification of materials and finishes.
+  Complete building services.</p> 
+</div>
+
+<div id="Fit-out" class="tabcontent">
+  <h3>Fit-out</h3>
+  <p>At NNUC we offer a complete Interior Fitout services which specializes in fit-out construction. Over the past 8 years NNUC has successfully completed and been involved in many Fitout projects in Kuwait and throughout the Middle East. Our experience stems from successful completion of quality construction and fitout projects in various commercial sectors such as offices, banking, International retail outlets, showrooms, restaurants, brand name coffee shops, and commissaries. Guided by our core principles of integrity and ethical practice, coupled with attention to detail, commitment to quality and customer service, NNUC Interior Fitouts continues to offer exceptional services and within budget for all clients.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
